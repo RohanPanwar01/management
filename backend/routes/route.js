@@ -121,5 +121,6 @@ router.delete("/SubjectsClass/:id", deleteSubjectsByClass)
 
 
 router.post('/VisitForm', createVisit);
+router.get('/VisitForm', getAllVisits);
 
 module.exports = router;
